@@ -1,0 +1,253 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+    color: #000;
+    box-sizing: border-box;
+
+
+}
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('bgimg.jpg');
+	height: 100vh;
+	width: auto;
+	background-position: center;
+	background-size: cover;
+
+
+}
+.sticky
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 13vh;
+	width: 100%;
+	background-color: rgba(71, 147, 237, 0.3);
+	box-shadow: 0 2px 2px #008000;
+	z-index: 9999;
+}
+.switch
+{
+	max-width: 1240px;
+	margin: 0px auto;
+}
+.main-nav
+{
+	float: left;
+	line-height: 70px;
+}
+.nav
+{
+	font-size: 15px;
+	list-style: none;
+}
+.nav li
+{
+	display: inline-block;
+
+}
+.nav li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 2px 5px;
+	margin-right: 80px;
+	transition: 0.2s ease;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+
+}
+.nav li a:hover
+{
+	background-color: #008000;
+	border-radius: 50px; 
+
+
+
+
+
+}
+.logo
+{
+	float: left;
+}
+
+.logo a
+{
+	color: #008000;
+	margin-right:  70px;
+	font-weight: bold;
+	font-size: 30px; 
+	line-height: 70px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+.donatebtn
+{
+	line-height: 70px;
+}
+.btn
+{
+	border-radius: 20px;
+}
+.btn a
+{
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px 25px;
+	font-size: 20px;
+}
+	
+.btn a:hover
+{
+opacity: 1;
+	color: #008000;
+
+}
+
+
+
+.search
+{
+	float: right;
+	position: relative;
+    max-width: 20%;
+    width: 400px;
+    display: inline-block;
+   top: -50px;
+}
+.searchbtn
+{
+	padding: 5px 2px;
+	border-radius: 10px;
+}
+.searchbtn:hover
+{
+ opacity: 1;
+ color: #008000;
+}
+
+
+ input[type=search]
+ {
+ 	width: 60%;
+	padding: 7px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+ }
+
+.title
+{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-family: 'Open Sans', sans-serif;
+    
+}
+.title h2
+{
+	color: #fff;
+	font-size: 50px;
+	margin-bottom: 25px;
+	text-shadow: 4px 4px 1px #497ca0;
+}
+.title p
+{
+	color:#fff;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.title h4
+{
+	color:#fff;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.register-btn
+{
+	text-align: center;
+
+}
+.btns
+{
+	margin-right: 10px;
+	padding: 5px 15px;
+	font-size: 20px;
+	border-radius: 20px;
+	background-color: #008000;
+	border:1px solid #008000;
+}
+.btns:hover
+{
+	background-color: #fff;
+}
+.btns a
+{
+	text-decoration: none;
+}
+
+/*--------- registration form ----------*/
+
+
+section
+{
+	height: 100vh;
+	background-color:#1c721c;
+
+}
+
+.form
+{
+	text-align: center;
+
+}
+
+
+.modal
+{
+	padding-top: 70px;
+
+}
+
+.heading
+{
+	background-color: #2db48a;
+	padding :10px;
+	font-size: 20px;
+	width: auto;
+	margin: 0 30% 0 30%;
+	
+}
+.heading h2
+{
+	margin-bottom: 30px;
+}
+input[type=text], input[type=password],input[type=number] {
+  width: 60%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.submit{
+	border-radius: 50px;
+  background-color: #195dad;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  opacity: 0.8;
+}
+
+.submit:hover {
+  opacity:1;
+}
